@@ -890,6 +890,22 @@ header .social-links ul li a:focus {
 	max-width: 1290px;
 }
 
+#home.home-particles {
+	background: #020507;
+	overflow: hidden;
+}
+#home.home-particles .pg-canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100% !important;
+	width: 100% !important;
+	opacity: .12;
+}
+#home.home-particles .shadow-overlay {
+	display: none;
+}
+
 #home.home-slides {
 	height: 100% !important;
 }
