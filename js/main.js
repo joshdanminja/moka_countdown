@@ -15,20 +15,14 @@
   	$(".fluid-video-wrapper").fitVids();
 
 
-	$(".home-slides").vegas({
-		transition: 'fade',
-		transitionDuration: 2500,
-		delay: 5000,
-    	slides: [
-       		{ src: "images/slides/largeWithChildren.JPG" },
-        	{ src: "images/slides/withChildren.JPG" },
-			{ src: "images/slides/children.JPG" },
-			{ src: "images/slides/withChildren@VoH.JPG" },
-			{ src: "images/slides/@office.jpg" },
-			{ src: "images/slides/receivingGoods.jpg" },
-			{ src: "images/slides/shotWell.jpg" }
-    	]
-	});
+	  $('.home-particles').particleground({
+		dotColor: '#fff',
+		lineColor: '#555555',
+		particleRadius: 10,
+		curveLines: true,
+		density: 10000,
+		proximity: 110
+	 });
 	
 	$(".tab-content").hide();
 	$(".tab-content").first().show();
