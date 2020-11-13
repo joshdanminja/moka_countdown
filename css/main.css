@@ -747,7 +747,7 @@ header .logo a {
 header .social-links {
 	position: absolute;
 	right: 20px;
-	top: 50px;
+	top: 60px;
 	text-align: right;
 }
 
@@ -775,7 +775,7 @@ header .social-links ul li a:visited {
 
 header .social-links ul li a:hover,
 header .social-links ul li a:focus {
-	color: #057f78;
+	color: #fa8f3d;
 }
 
 /* ------------------------------------------------------------------- 
